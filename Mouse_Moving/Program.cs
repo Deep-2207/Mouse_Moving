@@ -40,8 +40,8 @@ class Program
                 Console.WriteLine("Mouse clicked at: " + DateTime.Now.ToString());
             }
             previousMousePosition = currentMousePosition;
-            Thread.Sleep(2000);
-            //Thread.Sleep(30000);
+            //Thread.Sleep(2000);
+            Thread.Sleep(30000);
         }
     }
 }
